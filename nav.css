@@ -1,0 +1,26 @@
+.nav .navigation {
+  display: flex;
+  justify-content: space-around;
+  padding: 17px 20px;
+  font-size: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(247, 244, 244);
+  border-top: 1px solid rgb(212, 211, 211);
+}
+
+.nav .chat {
+  position: relative;
+}
+
+.nav .chatNum {
+  position: absolute;
+  top: -5px;
+  right: -10px;
+  font-size: 13px;
+  background-color: rgb(252, 126, 54);
+  padding: 2px;
+  border-radius: 50%;
+  color: white;
+}

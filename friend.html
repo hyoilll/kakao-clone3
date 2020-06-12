@@ -8,6 +8,7 @@
       src="https://kit.fontawesome.com/faffc246c6.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header class="header">
@@ -60,41 +61,41 @@
       </section>
     </header>
     <main class="main">
-      <section class="main-area">
-        <div class="column">
-          <div class="picture">
-            <img src="./image/photo.jpg" alt="" />
-          </div>
-          <span class="name">효일</span>
+      <section class="main-area self">
+        <div class="picture">
+          <img src="./image/photo.jpg" alt="" class="self-avatar" />
         </div>
-        <div class="column">
-          <span class="">素晴らしい</span>
+        <div class="content">
+          <span class="name">효일</span>
+          <span class="msg">素晴らしい</span>
         </div>
       </section>
-      <section class="main-area">
+      <section class="main-area brithday">
         <div class="row">
           <div class="column">
             <h5 class="row-title">誕生日のカカとも</h5>
           </div>
           <div class="column">
-            <span>
+            <span class="icon">
               <i class="fas fa-angle-up"></i>
             </span>
           </div>
         </div>
         <div class="row">
           <div class="column">
-            <div class="picture">
-              <img src="./image/hqdefault.jpg" alt="" />
+            <div class="content">
+              <div class="picture">
+                <img src="./image/hqdefault.jpg" alt="" class="avatar" />
+              </div>
+              <span class="msg">友だちの誕生日を確認してみましょう！</span>
             </div>
-            <span class="name">友だちの誕生日を確認してみましょう！</span>
           </div>
           <div class="column">
-            <span class="">2 ></span>
+            <span class="cnt">2 ></span>
           </div>
         </div>
       </section>
-      <section class="main-area">
+      <section class="main-area like">
         <div class="row">
           <div class="column">
             <h5 class="row-title">お気に入り</h5>
@@ -110,15 +111,15 @@
             <li class="member-list">
               <div class="column">
                 <div class="picture">
-                  <img src="./image/yuki.jpg" alt="" />
+                  <img src="./image/yuki.jpg" alt="" class="avatar" />
                 </div>
-                <span class="name">Yuki</span>
+                <span class="name">Yukiどの</span>
               </div>
             </li>
             <li class="member-list">
               <div class="column">
                 <div class="picture">
-                  <img src="./image/sana.jpg" alt="" />
+                  <img src="./image/sana.jpg" alt="" class="avatar" />
                 </div>
                 <span class="name">Sana</span>
               </div>
@@ -126,7 +127,7 @@
             <li class="member-list">
               <div class="column">
                 <div class="picture">
-                  <img src="./image/tzuyu.jpg" alt="" />
+                  <img src="./image/tzuyu.jpg" alt="" class="avatar" />
                 </div>
                 <span class="name">Tzuyu</span>
               </div>
@@ -134,7 +135,7 @@
             <li class="member-list">
               <div class="column">
                 <div class="picture">
-                  <img src="./image/mina.jpg" alt="" />
+                  <img src="./image/mina.jpg" alt="" class="avatar" />
                 </div>
                 <span class="name">Mina</span>
               </div>
@@ -142,7 +143,7 @@
           </ul>
         </div>
       </section>
-      <section class="main-area">
+      <section class="main-area know">
         <div class="row">
           <div class="column">
             <h5 class="row-title">知り合いかも？</h5>
@@ -155,17 +156,19 @@
         </div>
         <div class="row">
           <div class="column">
-            <div class="picture">
-              <img src="./image/dahyun.jpg" alt="" />
+            <div class="content">
+              <div class="picture">
+                <img src="./image/dahyun.jpg" alt="" class="avatar" />
+              </div>
+              <span class="msg">新しい友だちを確認してみましょう！</span>
             </div>
-            <span class="name">新しい友だちを確認してみましょう！</span>
           </div>
           <div class="column">
-            <span class="">5 ></span>
+            <span class="cnt">5 ></span>
           </div>
         </div>
       </section>
-      <section class="main-area">
+      <section class="main-area channel">
         <div class="row">
           <div class="column">
             <h5 class="row-title">チャンネル</h5>
@@ -178,17 +181,19 @@
         </div>
         <div class="row">
           <div class="column">
-            <div class="picture">
-              <img src="./image/twice.jpg" alt="" />
+            <div class="content">
+              <div class="picture">
+                <img src="./image/twice.jpg" alt="" class="avatar" />
+              </div>
+              <span class="msg">Twice</span>
             </div>
-            <span class="name">Twice</span>
           </div>
           <div class="column">
-            <span class="">8 ></span>
+            <span class="cnt">8 ></span>
           </div>
         </div>
       </section>
-      <section class="main-area">
+      <section class="main-area friends">
         <div class="row">
           <div class="column">
             <h5 class="row-title">カカとも 50</h5>
@@ -204,10 +209,10 @@
             <li class="member">
               <div class="column">
                 <div class="picture">
-                  <img src="./image/yuki.jpg" alt="" />
+                  <img src="./image/yuki.jpg" alt="" class="avatar" />
                 </div>
                 <div class="content">
-                  <span class="name">Yuki</span>
+                  <span class="name">Yukiどの</span>
                   <span class="meg">素晴らしい</span>
                 </div>
               </div>
@@ -223,7 +228,7 @@
             <li class="member">
               <div class="column">
                 <div class="picture">
-                  <img src="./image/tzuyu.jpg" alt="" />
+                  <img src="./image/tzuyu.jpg" alt="" class="avatar" />
                 </div>
                 <div class="content">
                   <span class="name">Tzuyu</span>
@@ -242,7 +247,7 @@
             <li class="member">
               <div class="column">
                 <div class="picture">
-                  <img src="./image/sana.jpg" alt="" />
+                  <img src="./image/sana.jpg" alt="" class="avatar" />
                 </div>
                 <div class="content">
                   <span class="name">Sana</span>
@@ -264,32 +269,34 @@
     </main>
     <nav class="nav">
       <ul class="navigation">
-        <a href="friend.html" class="">
-          <li class="nav-page">
+        <li class="nav-page">
+          <a href="friend.html" class="">
             <i class="fas fa-user"></i>
-          </li>
-        </a>
-        <a href="chat_list.html" class="">
-          <li class="nav-page">
+          </a>
+        </li>
+        <li class="nav-page chat">
+          <a href="chat_list.html" class="">
+            <div class="icon">
+              <i class="far fa-comment" class="chatPar"></i>
+            </div>
             <span class="chatNum">253</span>
-            <i class="far fa-comment"></i>
-          </li>
-        </a>
-        <a href="find.html" class="">
-          <li class="nav-page">
+          </a>
+        </li>
+        <li class="nav-page">
+          <a href="find.html" class="">
             <i class="fas fa-hashtag"></i>
-          </li>
-        </a>
-        <a href="game.html" class="">
-          <li class="nav-page">
+          </a>
+        </li>
+        <li class="nav-page">
+          <a href="game.html" class="">
             <i class="far fa-star"></i>
-          </li>
-        </a>
-        <a href="more.html" class="">
-          <li class="nav-page">
+          </a>
+        </li>
+        <li class="nav-page">
+          <a href="more.html" class="">
             <i class="fas fa-ellipsis-h"></i>
-          </li>
-        </a>
+          </a>
+        </li>
       </ul>
     </nav>
   </body>
