@@ -8,8 +8,9 @@
       src="https://kit.fontawesome.com/faffc246c6.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
+  <body class="game">
     <header class="header">
       <section class="status-bar">
         <div class="status-column">
@@ -52,13 +53,17 @@
           </span>
         </div>
       </section>
-      <section class="advertisement">
-        <div class="adver-img">
-          <img src="./image/KakaoTalk_20200609_210829282.jpg" alt="" class="" />
-        </div>
-      </section>
     </header>
     <main class="main">
+      <section class="section-menu">
+        <div class="adver-img">
+          <img
+            src="./image/KakaoTalk_20200609_210829282.jpg"
+            alt=""
+            class="ad-lion"
+          />
+        </div>
+      </section>
       <section class="section-menu">
         <h5 class="title">一緒に見る楽しみ</h5>
         <div class="row">
@@ -67,22 +72,42 @@
               <img
                 src="./image/KakaoTalk_20200609_211238445.jpg"
                 alt=""
-                class=""
+                class="picture"
               />
             </div>
-            <span class="content-meg">jeju島で彼女との思い出</span>
+            <span class="content-meg"
+              >jeju島で彼女との思い出、<br />
+              一緒にドライブ出来て本当に楽しかったし
+              美味しいものも沢山食べて良かったですね。</span
+            >
           </div>
           <div class="content">
             <div class="content-img">
-              <img src="./image/KakaoTalk_20200609_211238642.jpg" alt="" />
+              <img
+                src="./image/KakaoTalk_20200609_211238642.jpg"
+                alt=""
+                class="picture"
+              />
             </div>
-            <span class="content-meg">ディズニーランドもまた行きたいな</span>
+            <span class="content-meg"
+              >ディズニーランドもまた行きたいな、<br />
+              あの時はめっちゃ暑くて仕方がなかったね
+              それでも자기と一緒だったので嬉しかったです。</span
+            >
           </div>
           <div class="content">
             <div class="content-img">
-              <img src="./image/KakaoTalk_20200609_211238942.jpg" alt="" />
+              <img
+                src="./image/KakaoTalk_20200609_211238942.jpg"
+                alt=""
+                class="picture"
+              />
             </div>
-            <span class="content-meg">海みたいに綺麗な彼女と撮った写真</span>
+            <span class="content-meg"
+              >海みたいに綺麗な彼女と撮った写真、<br />
+              また一緒に温泉にいきたいですね、
+              そして美味しい餅もまた一緒に食べようぜ</span
+            >
           </div>
         </div>
         <div class="row">
@@ -97,7 +122,6 @@
       <section class="section-menu">
         <div class="row">
           <h5 class="title">人気のゲーム</h5>
-          <span class="meg">もっと見る</span>
         </div>
         <div class="row">
           <div class="content">
@@ -108,10 +132,10 @@
                     <img
                       src="./image/KakaoTalk_20200609_211239752.jpg"
                       alt=""
-                      class=""
+                      class="picture"
                     />
                   </div>
-                  <span class="item-meg">この人本当にイケメン</span>
+                  <span class="item-meg">この人本当に<br />イケメン</span>
                 </div>
               </li>
               <li class="list-item">
@@ -120,29 +144,31 @@
                     <img
                       src="./image/KakaoTalk_20200609_211240090.jpg"
                       alt=""
-                      class=""
+                      class="picture"
                     />
                   </div>
-                  <span class="item-meg">仲良いバーカー達</span>
+                  <span class="item-meg">仲良い<br />バーカー達</span>
                 </div>
               </li>
               <li class="list-item">
                 <div class="item">
                   <div class="item-img">
-                    <img src="./image/yuki.jpg" alt="" class="" />
+                    <img src="./image/yuki.jpg" alt="" class="picture" />
                   </div>
                   <span class="item-meg">大好きな寿司</span>
                 </div>
               </li>
               <li class="list-item">
-                <div class="item-img">
-                  <img
-                    src="./image/KakaoTalk_20200609_211142296.jpg"
-                    alt=""
-                    class=""
-                  />
+                <div class="item">
+                  <div class="item-img">
+                    <img
+                      src="./image/KakaoTalk_20200609_211142296.jpg"
+                      alt=""
+                      class="picture"
+                    />
+                  </div>
+                  <span class="item-meg">こんなに綺麗な<br />人はだれ</span>
                 </div>
-                <span class="item-meg">こんなに綺麗な人はだれ</span>
               </li>
             </ul>
           </div>
@@ -151,7 +177,7 @@
               <li class="list-item">
                 <div class="item">
                   <div class="item-img">
-                    <img src="./image/mina.jpg" alt="" class="" />
+                    <img src="./image/mina.jpg" alt="" class="picture" />
                   </div>
                   <span class="item-meg">mina</span>
                 </div>
@@ -159,7 +185,7 @@
               <li class="list-item">
                 <div class="item">
                   <div class="item-img">
-                    <img src="./image/sana.jpg" alt="" class="" />
+                    <img src="./image/sana.jpg" alt="" class="picture" />
                   </div>
                   <span class="item-meg">sana</span>
                 </div>
@@ -167,16 +193,18 @@
               <li class="list-item">
                 <div class="item">
                   <div class="item-img">
-                    <img src="./image/tzuyu.jpg" alt="" class="" />
+                    <img src="./image/tzuyu.jpg" alt="" class="picture" />
                   </div>
                   <span class="item-meg">tzuyu</span>
                 </div>
               </li>
               <li class="list-item">
-                <div class="item-img">
-                  <img src="./image/dahyun.jpg" alt="" class="" />
+                <div class="item">
+                  <div class="item-img">
+                    <img src="./image/dahyun.jpg" alt="" class="picture" />
+                  </div>
+                  <span class="item-meg">dahyun</span>
                 </div>
-                <span class="item-meg">dahyun</span>
               </li>
             </ul>
           </div>
@@ -187,17 +215,29 @@
         <ul class="content-list">
           <li class="list-item">
             <div class="item-img">
-              <img src="./image/KakaoTalk_20200609_214453922.jpg" alt="" />
+              <img
+                src="./image/KakaoTalk_20200609_214453922.jpg"
+                alt=""
+                class="picture"
+              />
             </div>
           </li>
           <li class="list-item">
             <div class="item-img">
-              <img src="./image/KakaoTalk_20200609_214453709.jpg" alt="" />
+              <img
+                src="./image/KakaoTalk_20200609_214453709.jpg"
+                alt=""
+                class="picture"
+              />
             </div>
           </li>
           <li class="list-item">
             <div class="item-img">
-              <img src="./image/KakaoTalk_20200609_214453689.jpg" alt="" />
+              <img
+                src="./image/KakaoTalk_20200609_214453689.jpg"
+                alt=""
+                class="picture"
+              />
             </div>
           </li>
         </ul>
@@ -211,11 +251,12 @@
                 <img
                   src="./image/KakaoTalk_20200609_215108335.jpg"
                   alt=""
-                  class=""
+                  class="picture"
                 />
               </div>
               <span class="item-msg">
-                部長の告白は可愛い
+                部長の告白は可愛い<br />いつか部長に会いたいな、
+                実際に出会ったらもっと面白そうね！
               </span>
             </div>
             <div class="column">
@@ -233,11 +274,11 @@
                 <img
                   src="./image/KakaoTalk_20200609_215137312.jpg"
                   alt=""
-                  class=""
+                  class="picture"
                 />
               </div>
               <span class="item-msg">
-                可愛すぎる殺先生
+                可愛すぎる殺先生<br />これ以上面白くて悲しくて良かったアニメはなかったな
               </span>
             </div>
             <div class="column">
@@ -255,11 +296,11 @@
                 <img
                   src="./image/KakaoTalk_20200609_215026256.jpg"
                   alt=""
-                  class=""
+                  class="picture"
                 />
               </div>
               <span class="item-msg">
-                可愛いクマ達
+                可愛いクマ達<br />二人ともめっちゃ可愛いじゃないか！さすが僕の彼女だ
               </span>
             </div>
             <div class="column">
@@ -275,13 +316,14 @@
             <div class="column">
               <div class="item-img">
                 <img
-                  src="./image/KakaoTalk_20200609_215108293.jpg"
+                  src="./image/KakaoTalk_20200613_230822376.jpg"
                   alt=""
-                  class=""
+                  class="picture"
                 />
               </div>
               <span class="item-msg">
-                写真編集ありがたく～
+                仲良さそうね！<br />
+                また자기と一緒に大阪の都内で楽しく遊びたい！
               </span>
             </div>
             <div class="column">
@@ -299,11 +341,12 @@
                 <img
                   src="./image/KakaoTalk_20200609_211141788.jpg"
                   alt=""
-                  class=""
+                  class="picture"
                 />
               </div>
               <span class="item-msg">
-                飴が好きなネズミ
+                飴が好きなネズミ<br />
+                こんなに可愛いネズミが今まで見たことないですね
               </span>
             </div>
             <div class="column">
@@ -320,32 +363,34 @@
     </main>
     <nav class="nav">
       <ul class="navigation">
-        <a href="friend.html" class="">
-          <li class="nav-page">
+        <li class="nav-page">
+          <a href="friend.html" class="">
             <i class="far fa-user"></i>
-          </li>
-        </a>
-        <a href="chat_list.html" class="">
-          <li class="nav-page">
+          </a>
+        </li>
+        <li class="nav-page chat">
+          <a href="chat_list.html" class="">
+            <div class="icon">
+              <i class="far fa-comment" class="chatPar"></i>
+            </div>
             <span class="chatNum">253</span>
-            <i class="far fa-comment"></i>
-          </li>
-        </a>
-        <a href="find.html" class="">
-          <li class="nav-page">
+          </a>
+        </li>
+        <li class="nav-page">
+          <a href="find.html" class="">
             <i class="fas fa-hashtag"></i>
-          </li>
-        </a>
-        <a href="game.html" class="">
-          <li class="nav-page">
+          </a>
+        </li>
+        <li class="nav-page">
+          <a href="game.html" class="">
             <i class="fas fa-star"></i>
-          </li>
-        </a>
-        <a href="more.html" class="">
-          <li class="nav-page">
+          </a>
+        </li>
+        <li class="nav-page">
+          <a href="more.html" class="">
             <i class="fas fa-ellipsis-h"></i>
-          </li>
-        </a>
+          </a>
+        </li>
       </ul>
     </nav>
   </body>

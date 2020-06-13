@@ -8,8 +8,9 @@
       src="https://kit.fontawesome.com/faffc246c6.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
+  <body class="chat_list">
     <header class="header">
       <section class="status-bar">
         <div class="status-column">
@@ -65,7 +66,7 @@
           <li class="member">
             <div class="column">
               <div class="picture">
-                <img src="./image/yuki.jpg" alt="" />
+                <img src="./image/yuki.jpg" alt="" class="avatar" />
               </div>
               <div class="content">
                 <span class="name">Yuki</span>
@@ -83,7 +84,7 @@
         <li class="member">
           <div class="column">
             <div class="picture">
-              <img src="./image/tzuyu.jpg" alt="" />
+              <img src="./image/tzuyu.jpg" alt="" class="avatar" />
             </div>
             <div class="content">
               <span class="name">Tzuyu</span>
@@ -100,7 +101,7 @@
         <li class="member">
           <div class="column">
             <div class="picture">
-              <img src="./image/sana.jpg" alt="" />
+              <img src="./image/sana.jpg" alt="" class="avatar" />
             </div>
             <div class="content">
               <span class="name">Sana</span>
@@ -118,32 +119,34 @@
     </main>
     <nav class="nav">
       <ul class="navigation">
-        <a href="friend.html" class="">
-          <li class="nav-page">
+        <li class="nav-page">
+          <a href="friend.html" class="">
             <i class="far fa-user"></i>
-          </li>
-        </a>
-        <a href="chat_list.html" class="">
-          <li class="nav-page">
+          </a>
+        </li>
+        <li class="nav-page chat">
+          <a href="chat_list.html" class="">
+            <div class="icon">
+              <i class="fas fa-comment" class="chatPar"></i>
+            </div>
             <span class="chatNum">253</span>
-            <i class="fas fa-comment"></i>
-          </li>
-        </a>
-        <a href="find.html" class="">
-          <li class="nav-page">
+          </a>
+        </li>
+        <li class="nav-page">
+          <a href="find.html" class="">
             <i class="fas fa-hashtag"></i>
-          </li>
-        </a>
-        <a href="game.html" class="">
-          <li class="nav-page">
+          </a>
+        </li>
+        <li class="nav-page">
+          <a href="game.html" class="">
             <i class="far fa-star"></i>
-          </li>
-        </a>
-        <a href="more.html" class="">
-          <li class="nav-page">
+          </a>
+        </li>
+        <li class="nav-page">
+          <a href="more.html" class="">
             <i class="fas fa-ellipsis-h"></i>
-          </li>
-        </a>
+          </a>
+        </li>
       </ul>
     </nav>
   </body>

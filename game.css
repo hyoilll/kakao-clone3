@@ -1,0 +1,125 @@
+.game .main .section-menu:nth-child(1) .ad-lion {
+  width: 460px;
+  height: 230px;
+}
+
+.game .main .section-menu h5 {
+  padding-bottom: 5px;
+  border-bottom: 1px solid rgb(215, 218, 218);
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+.game .main .section-menu:nth-child(2) .picture {
+  width: 180px;
+  height: 100px;
+}
+
+.game .main .section-menu:nth-child(2) .content {
+  display: flex;
+  border-bottom: 1px solid rgb(215, 218, 218);
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+}
+
+.game .main .section-menu:nth-child(2) .content .content-meg {
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.game .main .section-menu:nth-child(2) .row:last-child {
+  text-align: center;
+  border-bottom: 1px solid rgb(215, 218, 218);
+  padding: 5px 0px 10px 0px;
+}
+
+.game .main .section-menu:nth-child(3) .row:last-child .item .picture {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+}
+
+.game .main .section-menu:nth-child(3) .row:last-child .content-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.game .main .section-menu:nth-child(3) .row:last-child .item-meg {
+  font-size: 12px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.game .main .section-menu:nth-child(3) {
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgb(215, 218, 218);
+}
+
+.game .main .section-menu:nth-child(4) .picture {
+  width: 460px;
+  height: 200px;
+}
+
+.game .main .section-menu:nth-child(4) {
+  padding-bottom: 3px;
+  border-bottom: 1px solid rgb(215, 218, 218);
+}
+
+.game .main .section-menu:nth-child(5) .picture {
+  width: 200px;
+  height: 120px;
+}
+
+.game .main .section-menu:nth-child(5) .list-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.game .main .section-menu:nth-child(5) .list-item .column:last-child {
+  display: flex;
+  align-items: center;
+}
+
+.game
+  .main
+  .section-menu:nth-child(5)
+  .list-item
+  .column:last-child
+  .start-btn {
+  padding: 8px;
+  border: 1px solid black;
+}
+
+.game
+  .main
+  .section-menu:nth-child(5)
+  .list-item
+  .column:last-child
+  .start-btn {
+  display: flex;
+}
+
+.game
+  .main
+  .section-menu:nth-child(5)
+  .list-item
+  .column:last-child
+  .start-btn
+  .meg {
+  margin-right: 5px;
+}
+
+.game .main .section-menu:nth-child(5) .list-item .column:first-child {
+  display: flex;
+  align-items: center;
+}
+
+.game
+  .main
+  .section-menu:nth-child(5)
+  .list-item
+  .column:first-child
+  .item-msg {
+  margin-left: 10px;
+}

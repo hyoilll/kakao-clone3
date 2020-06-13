@@ -1,6 +1,11 @@
 @import "friend.css";
 @import "nav.css";
 @import "header.css";
+@import "chats.css";
+@import "find.css";
+@import "game.css";
+@import "more.css";
+
 body {
   padding: 0;
   margin: 80px 0px;

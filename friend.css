@@ -2,18 +2,21 @@
   margin-top: 12px;
 }
 
-.main .self {
+.main .self,
+.more .main .profile .row:first-child .column:first-child {
   display: flex;
 }
 .main .self .content,
-.main .friends .column:first-child .content {
+.main .friends .column:first-child .content,
+.more .main .profile .row:first-child .content {
   display: flex;
   flex-direction: column;
   margin-left: 10px;
   justify-content: center;
 }
 
-.main .self .content .msg {
+.main .self .content .msg,
+.more .main .profile .row:first-child .content .email {
   color: rgb(150, 153, 153);
   font-size: 15px;
 }
@@ -41,12 +44,14 @@
 .main .brithday .row:last-child,
 .main .know .row:last-child,
 .main .channel .row:last-child,
-.main .friends .row:last-child .member {
+.main .friends .row:last-child .member,
+.more .main .profile .row:first-child {
   display: flex;
   justify-content: space-between;
 }
 
-.main .friends .row:last-child .column:first-child {
+.main .friends .row:last-child .column:first-child,
+.more .main .profile .row:first-child .column:last-child {
   display: flex;
   align-items: center;
 }
@@ -98,7 +103,8 @@
   border-radius: 20px;
 }
 
-.main .self-avatar {
+.main .self-avatar,
+.more .main .self-avatar {
   width: 60px;
   height: 60px;
   border-radius: 20px;
