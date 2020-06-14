@@ -16,7 +16,8 @@
 }
 
 .main .self .content .msg,
-.more .main .profile .row:first-child .content .email {
+.more .main .profile .row:first-child .content .email,
+.main .friends .meg {
   color: rgb(150, 153, 153);
   font-size: 15px;
 }
