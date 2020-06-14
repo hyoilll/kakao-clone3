@@ -81,35 +81,6 @@
   align-items: center;
 }
 
-.game
-  .main
-  .section-menu:nth-child(5)
-  .list-item
-  .column:last-child
-  .start-btn {
-  padding: 8px;
-  border: 1px solid black;
-}
-
-.game
-  .main
-  .section-menu:nth-child(5)
-  .list-item
-  .column:last-child
-  .start-btn {
-  display: flex;
-}
-
-.game
-  .main
-  .section-menu:nth-child(5)
-  .list-item
-  .column:last-child
-  .start-btn
-  .meg {
-  margin-right: 5px;
-}
-
 .game .main .section-menu:nth-child(5) .list-item .column:first-child {
   display: flex;
   align-items: center;
