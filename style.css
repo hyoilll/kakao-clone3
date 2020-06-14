@@ -5,7 +5,7 @@
 @import "find.css";
 @import "game.css";
 @import "more.css";
-
+@import "chat.css";
 body {
   padding: 0;
   margin: 80px 0px;

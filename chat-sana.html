@@ -3,13 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Friend</title>
+    <title>Chat</title>
     <script
       src="https://kit.fontawesome.com/faffc246c6.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
+  <body class="chat">
     <header class="header">
       <section class="status-bar">
         <div class="status-column">
@@ -46,7 +47,7 @@
               <i class="fas fa-arrow-left"></i>
             </span>
           </a>
-          <span class="page-title">Yuki</span>
+          <span class="page-title">Sana</span>
         </div>
         <div class="column">
           <span class="icon">
@@ -65,29 +66,27 @@
       <section class="chatting">
         <div class="incoming-meg">
           <div class="meg-img">
-            <img
-              src="./image/KakaoTalk_20200609_211142296.jpg"
-              alt=""
-              class=""
-            />
+            <img src="./image/sana.jpg" alt="" class="picture" />
           </div>
           <div class="content">
-            <span class="name">Yuki</span>
-            <span class="meg">ご飯食べよっと！</span>
+            <span class="name">Sana</span>
+            <span class="meg">アイスクリームを食べよっと</span>
           </div>
         </div>
         <div class="outgoing-meg">
           <div class="content">
-            <span class="meg">一緒に食べようぜ～！</span>
+            <span class="meg">僕にもくれよ！</span>
           </div>
         </div>
       </section>
-      <section class="input-meg">
-        <div class="text-box">
-          <span class="puls-icon">
-            <i class="far fa-plus-square"></i>
-          </span>
-          <input type="text" class="text-area" placeholder="Message" />
+    </main>
+    <section class="input-meg">
+      <div class="text-box">
+        <span class="puls-icon">
+          <i class="far fa-plus-square"></i>
+        </span>
+        <input type="text" class="text-area" placeholder="Message" />
+        <div class="search-icon">
           <span class="emoticon-icon">
             <i class="far fa-smile-wink"></i>
           </span>
@@ -95,7 +94,7 @@
             <i class="fas fa-hashtag"></i>
           </span>
         </div>
-      </section>
-    </main>
+      </div>
+    </section>
   </body>
 </html>

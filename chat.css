@@ -1,0 +1,60 @@
+.chat .time-stemp {
+  text-align: center;
+  padding: 0px 0px 10px 0px;
+  border-bottom: 1px solid rgb(212, 211, 211);
+}
+
+.chat .chatting .incoming-meg {
+  display: flex;
+}
+
+.chat .chatting .incoming-meg .content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.chat .chatting .incoming-meg .content .meg {
+  background-color: black;
+  margin: 5px 0px;
+  padding: 5px 5px;
+  border-radius: 10px;
+  border-top-left-radius: 0%;
+  color: white;
+}
+
+.chat .chatting .outgoing-meg {
+  text-align: right;
+  margin: 10px 0px;
+}
+
+.chat .chatting .outgoing-meg .meg {
+  background-color: black;
+  padding: 5px 5px;
+  border-radius: 10px;
+  border-top-right-radius: 0%;
+  color: white;
+}
+
+.chat .input-meg {
+  position: fixed;
+  bottom: 0px;
+  border-top: 1px solid rgb(212, 211, 211);
+  background-color: rgb(247, 244, 244);
+  width: 100%;
+  margin: 0px;
+  padding: 20px;
+  font-size: 25px;
+}
+
+.chat .input-meg .text-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.chat .input-meg .text-box .text-area {
+  width: 80%;
+  border: none;
+  background-color: rgb(247, 244, 244);
+  outline: none;
+}

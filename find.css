@@ -20,7 +20,7 @@
 }
 
 .find .main .photo-news .news-photo {
-  width: 230px;
+  width: 220px;
   height: 230px;
   border-radius: 10px;
 }
@@ -31,7 +31,7 @@
 }
 
 .find .main .video-ad {
-  width: 460px;
+  width: 100%;
   height: 230px;
 }
 
